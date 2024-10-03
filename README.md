@@ -13,13 +13,14 @@ The glue between SQLite and your application.
 <tbody>
 <tr>
 <td>
-<a href="https://gitter.im/SetBased/py-stratum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img src="https://badges.gitter.im/SetBased/py-stratum.svg" alt="Gitter"/></a>
+<a href="https://gitter.im/SetBased/py-stratum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
+<img src="https://badges.gitter.im/SetBased/py-stratum.svg" alt="Gitter"/></a>
 </td>
 <td>
-<a href="https://badge.fury.io/py/PyStratum-SQLite"><img src="https://badge.fury.io/py/PyStratum-SQLite.svg" alt="Latest Stable Version"/></a><br/>
+<a href="https://badge.fury.io/py/PyStratum-SQLite"><img src="https://badge.fury.io/py/PyStratum-SQLite.svg" alt="Latest Stable Version"/></a>
 </td>
 <td>
-
+<a href="https://codecov.io/gh/DatabaseStratum/py-stratum-sqlite"><img src="https://codecov.io/gh/DatabaseStratum/py-stratum-sqlite/graph/badge.svg"/></a>
 </td>
 </tr>
 </tbody>
