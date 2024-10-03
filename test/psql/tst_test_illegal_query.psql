@@ -1,0 +1,10 @@
+/**
+ * Test for illegal query.
+ *
+ * @type rows
+ */
+drop table if exists TST_FOOBAR;
+
+drop table if exists TST_FOOBAR;
+
+select * from NOT_EXISTS;

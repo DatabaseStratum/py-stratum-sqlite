@@ -1,0 +1,22 @@
+/**
+ * Test comment add end is ignored.
+ *
+ * @type singleton1 text
+ */
+create table TMP_FOO
+(
+    text varchar(100)
+);
+
+create index TMP_IDX01 on TMP_FOO(text);
+
+insert into TMP_FOO(text)
+values
+    ('Hello, world!');
+
+select text
+from TMP_FOO;
+
+/**
+ * This is a trailing comment.
+ */

@@ -1,0 +1,13 @@
+/**
+ * Test for designation type singleton1.
+ *
+ * @param int :p_count The number of rows selected.
+ *                     * 0 For an invalid test.
+ *                     * 1 For a valid test.
+ *                     * 2 For an invalid test.
+ *
+ * @type singleton1 int
+ */
+select 1
+from TST_FOO2
+where tst_c00 <= :p_count

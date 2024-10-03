@@ -1,0 +1,6 @@
+/**
+ * Test for magic constant.
+ *
+ * @type singleton1 text
+ */
+select __DIR__;
