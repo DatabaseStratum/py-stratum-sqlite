@@ -1,5 +1,5 @@
 /**
- * Test case for designation type last_insert_id.
+ * Test case for the designation type last_insert_id.
  *
  * @param text :p_tst_test Some value.
  *

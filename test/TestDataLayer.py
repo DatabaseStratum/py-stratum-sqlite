@@ -24,7 +24,7 @@ class TestDataLayer(SqliteDataLayer):
     # ------------------------------------------------------------------------------------------------------------------
     def tst_strtr(self, p1: int | None, p100: int | None, p10: int | None) -> Dict[str, Any]:
         """
-        Test strtr does not mix up parameters with nearly same name.
+        Test strtr does not mix up parameters with nearly the same names.
 
         :param p1: Parameter of type int.
                    RDBMS data type: int
@@ -121,7 +121,7 @@ from TMP_FOO
     # ------------------------------------------------------------------------------------------------------------------
     def tst_test_illegal_query(self) -> List[Dict[str, Any]]:
         """
-        Test for illegal query.
+        Test for an illegal query.
         """
         params = {}
         query = '\n' * 5
@@ -142,7 +142,7 @@ from TMP_FOO
     # ------------------------------------------------------------------------------------------------------------------
     def tst_test_last_insert_id(self, p_tst_test: str | None) -> int:
         """
-        Test case for designation type last_insert_id.
+        Test case for the designation type last_insert_id.
 
         :param p_tst_test: Some value.
                            RDBMS data type: text
